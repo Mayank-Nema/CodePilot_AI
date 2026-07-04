@@ -11,7 +11,7 @@ st.title("🚀 CodePilot AI")
 
 st.write("AI Software Engineering Assistant")
 
-repo_url = st.text_input("GitHub Repository URL")
+repo_url = st.text_input("GitHub Repository URL (HTTPS or SSH)")
 
 if st.button("Analyze Repository"):
 
