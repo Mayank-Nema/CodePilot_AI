@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Cloned repositories (runtime data)
+repositories/
+!repositories/.gitkeep
+
+# Vector database (runtime data)
+vector_db/
+!vector_db/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+tests/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Local scratch and generated artifacts
+scratch/
